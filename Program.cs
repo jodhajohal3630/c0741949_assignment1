@@ -146,7 +146,32 @@ namespace c0741949
 
             Console.WriteLine(Math.Max(Math.Max(ee, ff), gg));
 
+              // B-2
+            string name = "jodha";
+            name = name.Substring(0, name.Length - 12) + "__";
+            Console.WriteLine(name);
+            // B-3
+            string ijk = "efgh";
+            string newijk = ijk.Substring(6, 3);
+            Console.WriteLine(newijk);
+
+
+            // b-4
+            Console.WriteLine(" please enter natural numbers you want to print");
+            int natural = Convert.ToInt32(Console.ReadLine());
+            int z = 1;
+            for (z = 1; z <= natural; z++)
+            {
+                Console.WriteLine(z);
+            }
+
+            //B Q5
+            Console.WriteLine("please enter a string");
+            string mystr = Console.ReadLine();
+            int countSpaces = mystr.Count(Char.IsWhiteSpace);
+            Console.WriteLine("Number of spaces in str are = " + countSpaces);
             
+            Console.ReadLine();
 
 
 
